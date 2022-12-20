@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>Points thingy</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="content">
+        <div class="pages">
+            <button style="margin-bottom:50px", id="main">Main</button>
+            <button style="margin-bottom:50px", id="upgrades">Upgrades</button>
+            
+        </div>
+
+        <div class="menus">
+            <div class="main">
+                <button id="ClickPoint">+1 Points</button>
+                <button id="UpgradeClick">Increase Click Amount (10 Points)</button>
+                <button id="UpgradeAuto1">Increase Auto Points (30 Points)</button>
+                <button style="background-color:rgb(102, 255, 204)" id="BuyBooster">Buy Booster (10000 Points)</button>
+            </div>
+            <div class="upgrades">
+                <button style="background-color:yellow" display:block id="UPG_DoublePassivePoint">Double Passive Point Gain (500 Points)</button>
+                <button style="background-color:yellow" display:block id="UPG_DoubleClickPoint">Double Click Point Gain (1k Points)</button>
+                <button style="background-color:yellow" display:block id="UPG_Booster">Unlock Boosters (2k Points)</button>
+            </div>
+
+            
+        </div>
+
+        <div class="stats">
+            <p id="points">Points: 0</p>
+            <p id="pps">Points Per Second: 0</p>
+        </div>
+    </div>
+</body>

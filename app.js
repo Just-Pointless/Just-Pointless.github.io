@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var Points = 100000;
+    var Points = 0;
     var ClickMulti = 1;
     var menu;
     var ClickMultiPrice = 10;
